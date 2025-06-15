@@ -12,7 +12,7 @@ app.get("/ready", function (req, res) {
   res.send('{ "response": " Great!, It works!" }');
 });
 
-app.get("/", function (req, res) {
+app.get("/get", function (req, res) {
   res.send('{ "response": "service is ready" }');
 });
 //listen to port 3000 by default
